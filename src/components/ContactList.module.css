@@ -1,0 +1,55 @@
+/* src/components/ContactList.css */
+.contact-tlist {
+    margin: 20px 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .delete-btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  .select-contact {
+    margin-right: 10px;
+  }
+  
